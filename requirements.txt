@@ -1,7 +1,4 @@
 Flask
-Werkzeug
-pandas
-plotly
+gunicorn
 yfinance
-matplotlib
-seaborn
+plotly
