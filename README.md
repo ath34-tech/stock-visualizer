@@ -1,7 +1,7 @@
 # Stock Visualizer
 
 Stock Visualizer is a web application built with Flask that allows users to visualize stock data for multiple tickers. Users can select the tickers from a dropdown menu, and the application fetches the data and displays it using Plotly Express.
-
+check practical implementation at [https://stock-visualizer.onrender.com/](https://stock-visualizer.onrender.com/)
 ## Features
 
 - Select multiple stock tickers from a dropdown.
