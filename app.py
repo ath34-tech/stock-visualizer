@@ -6,10 +6,7 @@ import plotly.io as pio
 
 app = Flask(__name__)
 
-def fetch_stock_data(ticker):
-    stock_data = yf.download(ticker, period='1y')
-    stock_data.reset_index(inplace=True)
-    return stock_data
+
 
 def generate_plot_html(tickers):
     
