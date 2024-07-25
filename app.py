@@ -25,6 +25,17 @@ def generate_plot_html(tickers):
         paper_bgcolor='#fff',  
         plot_bgcolor='#fff',  
         font=dict(family='Arial, sans-serif', size=10, color='#333'), 
+         legend=dict(
+            orientation="v",  # Default to vertical orientation
+            yanchor="top",
+            y=1,
+            xanchor="right",
+            x=1,
+               bgcolor='rgba(255, 255, 255, 0.8)',  # White background with 80% opacity
+            bordercolor='rgba(0, 0, 0, 0.1)',   # Light border color
+            borderwidth=1
+        )
+
     )
 
     plot_html = pio.to_html(fig, full_html=False, include_plotlyjs='cdn', config={'responsive': True})
